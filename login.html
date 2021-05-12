@@ -1,36 +1,95 @@
-<div class="container-fluid">
-    <div class="row no-gutter">
-      <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
-      <div class="col-md-8 col-lg-6">
-        <div class="login d-flex align-items-center py-5">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-9 col-lg-8 mx-auto">
-                <h3 class="login-heading mb-4">Welcome back!</h3>
-                <form>
-                  <div class="form-label-group">
-                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                    <label for="inputEmail">Email address</label>
-                  </div>
-  
-                  <div class="form-label-group">
-                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                    <label for="inputPassword">Password</label>
-                  </div>
-  
-                  <div class="custom-control custom-checkbox mb-3">
-                    <input type="checkbox" class="custom-control-input" id="customCheck1">
-                    <label class="custom-control-label" for="customCheck1">Remember password</label>
-                  </div>
-                  <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
-                  <div class="text-center">
-                    <a class="small" href="#">Forgot password?</a></div>
-                </form>
-              </div>
-            </div>
-          </div>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>CHAMPION LEAGUE FINAL 2021 EXCLUSIVE SALES</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap Files -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- Page CSS -->
+  <!-- <link rel="stylesheet" href="css/copy.css"> -->
+
+</head>
+
+<body>
+
+  <!-- Content goes here -->
+  <nav class="navbar navbar-light bg-light">
+    <a href="#" class="navbar-brand">
+      <img src="../images/logogo.png" height="40" alt="logo">2021 FINAL EXCLUSIVE SALES
+    </a>
+    <form class="form-inline">
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="#">THE MIRACLE OF ISTANBUL</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">CLOTHING</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">SHOES</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">ACCESSORIES</a></li>
+      </ul>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          LOGIN / REGISTER
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">LOGIN</a>
+          <a class="dropdown-item" href="#">REGISTER</a>
         </div>
       </div>
-    </div>
-  </div>
-  
+
+      <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">SEARCH</button>
+    </form>
+  </nav>
+  <!-- MAIN CONTAINER -->
+
+  <main">
+    <form action="action_page.php" method="post">
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+    <!--================login_part end =================-->
+    </main>
+
+    <!-- Footer Start-->
+    <footer class="footer">
+      <div>
+        <a href="index.html" class="footer-logo">CHAMPION</a>
+        <p>+1 212 888 0505</p>
+        <p>2021final@champion.com</p>
+      </div>
+      <div class="">
+        <p>&copy; <a href="#">MK 2021</a> ALL RIGHT RESERVED. </p>
+      </div>
+
+    </footer>
+
+
+    <!-- Bootstrap Files -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Page JS -->
+    <script src="js/page.js"></script>
+
+</body>
+
+</html>

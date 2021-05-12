@@ -1,0 +1,19 @@
+.navbar ul li a {
+  font-weight:auto;
+  color:#000;
+}
+.navbar ul li a:hover {
+  color:navy;
+}
+.carousel .item {
+  height: 300px;
+}
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+body {
+  background: rgba(0, 0, 255, 0.9)
+}
