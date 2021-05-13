@@ -18,8 +18,17 @@ body {
   background: rgba(105, 99, 255, 0.3)
 }
 
+#btns {
+  background-color: blue;
+}
+
 * {
   box-sizing: border-box;
+}
+
+#goal {
+  color:darkblue;
+  text-align: center;
 }
 
 /* Style inputs */
