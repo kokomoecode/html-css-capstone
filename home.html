@@ -12,47 +12,82 @@
   <!-- Page CSS -->
   <link rel="stylesheet" href="css/keep.css">
 
-    <title>Page Title</title>
 </head>
 
-
 <body>
-    <div class="container">
-        <div style="text-align:center">
-          <h1>Contact Us</h1>
-          <p>HIT ME UP</p>
-        </div>
-        <div class="row">
-          <div class="column">
-            <img src="/images/cclogo.jpeg" style="width:100%">
-          </div>
-          <div class="column">
-            <form action="/action_page.php">
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">USA</option>
-                <option value="canada">Canada</option>
-                <option value="usa">Mexico</option>
-              </select>
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-              <input type="submit" value="Submit">
-            </form>
-          </div>
-        </div>
+
+  <!-- Content goes here -->
+  <nav class="d-flex justify-content-between navbar navbar-light">
+    <div class="d-flex">
+      <a href="home.html" class="navbar-brand">
+        <img src="../images/logogo.png" height="40" alt="logo">2021 FINAL EXCLUSIVE SALES
+      </a>
+    </div>
+    <div class="d-flex flex-row">
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link font-weight-bold" href="productpage.html">PRODUCTS</a></li>
+        <li class="nav-item"><a class="nav-link font-weight-bold" href="miracle.html">THE MIRACLE OF ISTANBUL</a></li>
+        <li class="nav-item"><a class="nav-link font-weight-bold" href="contact.html">CONTACT US</a></li>
+      </ul>
+    </div>
+    <div class="form-inline">
+      <div class="dropdown">
+        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          LOGIN / REGISTER
+        </button>
+        <class class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="login.html">LOGIN</a>
+          <a class="dropdown-item" href="register.html">REGISTER</a>
+        </class>
+        <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+        <button class="btn btn-dark" type="submit">SEARCH</button>
       </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="d-flex justify-content-between">
+        <!--Section: Products v.3-->
+        <section class="col-lg-2 text-center mb-4">
+          <div class="text-center">
+            <img src="../images/ccfinalgraphic.jpg" width="600" alt="final graphic">
+        </section>
+        <article class="col-lg-4 text-center mb-4">
+          <div>
+            <h3>2005 FINAL</h3>
+            <p>
+              "The Reds completed "the greatest comeback in sport anywhere in the world" to defy the odds
+              and win the European Cup against AC Milan"
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="d-flex justify-content-between">
+        <aside class="col-lg- text-center mb-4">
+          <div>
+            <h3>Moe random shits</h3>
+            <p>
+              Beautiful Responsive Ecommerce Website. It has a header and a home page showing an image
+              and data of a product, it also has a features section, a women's sneakers section, a collection section,
+              a offers section and a footer. It also has its own page to see all the products. Developed totally mobile
+              first and then desktop.
+            </p>
+          </div>
+        </aside>
+        <section>
+          <div>
+            <img src="../images/ball.jpg" width="600" alt="ball">
+          </div>
+        </section>
+      </div>
+  </main>
+  <!--Section: Products v.3-->
 
 
 
-
-
-
-            <!-- Footer Start-->
-    <footer class="container py-5">
+  <!-- Footer Start-->
+  <footer class="container py-5 bg-transparent">
     <div class="row">
       <div class="col-12 col-sm">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"

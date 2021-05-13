@@ -10,76 +10,54 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
   <!-- Page CSS -->
-  <!-- <link rel="stylesheet" href="css/copy.css"> -->
+  <link rel="stylesheet" href="css/keep.css">
 
 </head>
 
 <body>
 
   <!-- Content goes here -->
-  <nav class="navbar navbar-light bg-light">
-    <a href="#" class="navbar-brand">
-      <img src="../images/logogo.png" height="40" alt="logo">2021 FINAL EXCLUSIVE SALES
-    </a>
-    <form class="form-inline">
-      <ul class="nav">
-        <li class="nav-item"><a class="nav-link" href="#">THE MIRACLE OF ISTANBUL</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">CLOTHING</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">SHOES</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">ACCESSORIES</a></li>
-      </ul>
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
-          LOGIN / REGISTER
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">LOGIN</a>
-          <a class="dropdown-item" href="#">REGISTER</a>
-        </div>
-      </div>
-
-      <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">SEARCH</button>
-    </form>
-  </nav>
+  
   <!-- MAIN CONTAINER -->
 
-  <main">
-    <form action="action_page.php" method="post">
-      <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
-
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-
-        <button type="submit">Login</button>
-        <label>
-          <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+          <div class="card card-signin my-5">
+            <div class="d-inline-block">
+            <div class="card-body">
+              <h1 class="card-title text-center font-weight-bold">SIGN IN</h1>
+              <form class="form-signin">
+                <div class="form-label-group text-center">
+                  <label for="inputEmail">EMAIL ADDRESS</label>                  
+                  <input type="email" id="inputEmail" class="form-control text-center" placeholder="" required autofocus>
+                </div>
+                  <hr>
+                <div class="form-label-group text-center">
+                  <label for="inputPassword">PASSWORD</label>                  
+                  <input type="password" id="inputPassword" class="form-control text-center" placeholder="" required>
+                </div>
+  
+                <div class="custom-control custom-checkbox mb-3 text-center">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1">
+                  <label class="custom-control-label" for="customCheck1">Remember password</label>
+                </div>
+                <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+                <hr class="my-4">
+                <button class="btn btn-lg btn-outline-success btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
+                <button class="btn btn-lg btn-outline-primary btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn">Cancel</button>
-        <span class="psw">Forgot <a href="#">password?</a></span>
-      </div>
-    </form>
+    </div>
     <!--================login_part end =================-->
     </main>
 
     <!-- Footer Start-->
-    <footer class="footer">
-      <div>
-        <a href="index.html" class="footer-logo">CHAMPION</a>
-        <p>+1 212 888 0505</p>
-        <p>2021final@champion.com</p>
-      </div>
-      <div class="">
-        <p>&copy; <a href="#">MK 2021</a> ALL RIGHT RESERVED. </p>
-      </div>
-
-    </footer>
+    
 
 
     <!-- Bootstrap Files -->

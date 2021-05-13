@@ -10,37 +10,49 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
   <!-- Page CSS -->
-  <link rel="stylesheet" href="css/copy.css">
+  <link rel="stylesheet" href="css/keep.css">
 
 </head>
 
 <body>
 
   <!-- Content goes here -->
-  <nav class="navbar navbar-light bg-light">
-    <a href="#" class="navbar-brand">
-      <img src="../images/logogo.png" height="40" alt="logo">2021 FINAL
-    </a>
-    <form class="form-inline">
+
+  <nav class="d-flex justify-content-between navbar navbar-light">
+    <div class="d-flex">
+      <a href="home.html" class="navbar-brand">
+        <img src="../images/logogo.png" height="40" alt="logo">2021 FINAL EXCLUSIVE SALES
+      </a>
+    </div>
+    <div class="d-flex flex-row">
       <ul class="nav">
-        <li class="nav-item"><a class="nav-link" href="#">The Miracle Of Istanbul</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Clothing</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Shoes</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Accesssories</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">mis</a></li>
+        <li class="nav-item"><a class="nav-link font-weight-bold" href="productpage.html">PRODUCTS</a></li>
+        <li class="nav-item"><a class="nav-link font-weight-bold" href="miracle.html">THE MIRACLE OF ISTANBUL</a></li>
+        <li class="nav-item"><a class="nav-link font-weight-bold" href="contact.html">CONTACT US</a></li>
       </ul>
-      <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">SEARCH</button>
-    </form>
+    </div>
+    <div class="form-inline">
+      <div class="dropdown">
+        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          LOGIN / REGISTER
+        </button>
+        <class class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="login.html">LOGIN</a>
+          <a class="dropdown-item" href="register.html">REGISTER</a>
+        </class>
+        <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+        <button class="btn btn-dark" type="submit">SEARCH</button>
+      </div>
   </nav>
   <!-- MAIN CONTAINER -->
 
   <div class="container">
     <!-- SALE BANNER -->
     <section>
-      <h1 class="istabul">THE MIRCALE IN ISTABUL</h1>
+      <h1 class="istabul">THE MIRACLE IN ISTABUL</h1>
       <div class="flex align-center center banner">
-        <img alt="Main Event" class="magic" src="../images/stadium.jpg" width=1075 height=auto>
+        <img alt="Main Event" src="../images/stadium.jpg" width=1120 height=auto>
         <div class="banner-text">
           <div class="text-light">THE MAGIC</div>
           <div class="text-secondary">
@@ -81,7 +93,7 @@
               cup was sealed when Andriy Shevchenko, then regarded as the finest centre-forward in the world, had his
               kick stopped by Jerzy Dudek.
             </p>
-            <img alt="Main Event" class="magic" src="../images/action.jpeg" width=1075 height=auto>
+            <img alt="Main Event" src="../images/action.jpeg" width=1120 height=auto>
             <p>
               Liverpool’s victory was greeted with astonishment, notably from manager Rafael Benitez, who admitted at
               the conclusion of the match: “My problem is that I don't have words to express the things that I feel at
@@ -104,19 +116,70 @@
               We couldn’t speak, we couldn’t move. They had mentally destroyed us. Insomnia, rage, depression, a sense
               of nothingness. We’d invented a new disease with multiple symptoms: Istanbul syndrome.”
             </p>
-            <img alt="Main Event" class="magic" src="../images/stevie.jpg" width=1075 height=auto>
+            <img alt="Main Event" src="../images/stevie.jpg" width=1120 height=auto>
           </div>
         </div>
       </div>
     </section>
   </div>
 
-  <!-- Footer Start-->
-  <footer class="footer py-5 bg-dark text-white-50">
-    <div class="container text-center">
-      <small>Copyright &copy; Your Website</small>
-    </div>
-  </footer>
+            <!-- Footer Start-->
+            <footer class="container py-5 bg-transparent">
+              <div class="row">
+                <div class="col-12 col-sm">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
+                    viewBox="0 0 24 24">
+                    <title>Product</title>
+                    <circle cx="12" cy="12" r="10" />
+                    <path
+                      d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+                  </svg>
+                  <small class="d-block mb-3 text-muted">&copy; MK 2021 ALL RIGHTS RESERVED</small>
+                </div>
+                <div class="col-6 col-sm">
+                  <h5>HELP</h5>
+                  <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="#">FAQs</a></li>
+                    <li><a class="link-secondary" href="#">Customer Service</a></li>
+                    <li><a class="link-secondary" href="#">Size Charts</a></li>
+                    <li><a class="link-secondary" href="#">Order Status</a></li>
+                    <li><a class="link-secondary" href="#">Shipping Information</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-sm">
+                  <h5>YOUR ACCOUNT</h5>
+                  <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="#">Sign In or Create Account</a></li>
+                    <li><a class="link-secondary" href="#">Wish List</a></li>
+                    <li><a class="link-secondary" href="#">Gift Cards</a></li>
+                    <li><a class="link-secondary" href="#">Coupons and Offers</a></li>
+                    <li><a class="link-secondary" href="#">Sign up for Email</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-sm">
+                  <h5>ABOUT US</h5>
+                  <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="#">Our Story</a></li>
+                    <li><a class="link-secondary" href="#">Careers</a></li>
+                    <li><a class="link-secondary" href="#">Contact Us</a></li>
+                    <li><a class="link-secondary" href="#">Soccer Club</a></li>
+                    <li><a class="link-secondary" href="#">Partnerships</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-sm">
+                  <h5>SOCIAL</h5>
+                  <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="#">Facebook</a></li>
+                    <li><a class="link-secondary" href="#">Instagram</a></li>
+                    <li><a class="link-secondary" href="#">Twitter</a></li>
+                    <li><a class="link-secondary" href="#">Linkedin</a></li>
+                    <li><a class="link-secondary" href="#">WeChat</a></li>
+                  </ul>
+                </div>
+              </div>
+            </footer>
+  
  
 
 

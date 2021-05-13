@@ -17,46 +17,40 @@
 <body>
 
   <!-- Content goes here -->
-  <nav class="navbar navbar-light bg-light">
-    <div class="d-flex w-50">
-      <a href="#" class="navbar-brand">
+  <nav class="d-flex justify-content-between navbar navbar-light">
+    <div class="d-flex">
+      <a href="home.html" class="navbar-brand">
         <img src="../images/logogo.png" height="40" alt="logo">2021 FINAL EXCLUSIVE SALES
       </a>
     </div>
-    <div class="d-inline-block">
-      <form class="form-inline">
-        <ul class="nav">
-          <li class="nav-item"><a class="nav-link" href="#">THE MIRACLE OF ISTANBUL</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">CLOTHING</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">SHOES</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">ACCESSORIES</a></li>
-        </ul>
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            LOGIN / REGISTER
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">LOGIN</a>
-            <a class="dropdown-item" href="#">REGISTER</a>
-          </div>
-        </div>
-        <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
-        <button class="btn btn-secondary" type="submit">SEARCH</button>
-      </form>
+    <div class="d-flex flex-row">
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link font-weight-bold" href="productpage.html">PRODUCTS</a></li>
+        <li class="nav-item"><a class="nav-link font-weight-bold" href="miracle.html">THE MIRACLE OF ISTANBUL</a></li>
+        <li class="nav-item"><a class="nav-link font-weight-bold" href="contact.html">CONTACT US</a></li>
+      </ul>
     </div>
+    <div class="form-inline">
+      <div class="dropdown">
+        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          LOGIN / REGISTER
+        </button>
+        <class class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="login.html">LOGIN</a>
+          <a class="dropdown-item" href="register.html">REGISTER</a>
+        </class>
+        <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+        <button class="btn btn-dark" type="submit">SEARCH</button>
+      </div>
   </nav>
 
   <main>
-    <div class="container">
+    <div class="container bg-dark">
 
       <!--Section: Products v.3-->
       <section class="text-center mb-4">
-        <div class="row text-center">
-          <img class="center-block" src="../images/ccfinalgraphic.jpg" width="1200" alt="final graphic">
-          <div class="banner-text">
-          </div>
-        </div>
+
         <!--Grid row1---------------------------------------------------------------------------------->
         <div class="row wow fadeIn">
 
@@ -470,7 +464,7 @@
 
 
   <!-- Footer Start-->
-  <footer class="container py-5">
+  <footer class="container py-5 bg-transparent">
     <div class="row">
       <div class="col-12 col-sm">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
